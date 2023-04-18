@@ -19,8 +19,57 @@
          </div>
     </head>
 <body>
-     <script src="./employee.js" class="js"></script>
+    <fieldset>
+        <legend class="border">add employee</legend>
+        <form id="employee-form"> 
+            <br>
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+                </div><br>
+                <div>
+                    <label for="department">Department:</label>
+                    <select id="department" name="department" required>
+                  <option value="Administration">Administration</option>
+                  <option value="Marketing">Marketing</option>
+                  <option value="Development">Development</option>
+                  <option value="Finance">Finance</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="level">Level:</label>
+                <select id="level" name="level" required>
+                    <option value="Junior">Junior</option>
+                  <option value="Mid-Senior">Mid-Senior</option>
+                  <option value="Senior">Senior</option>
+                </select>
+            </div><br>
+            <div>
+            <label for="imageUrl">Image URL:</label>
+            <input type="text" id="imageUrl" name="imageUrl" required>
+            </div><br><br>
+            <button type="submit">Submit</button>
+            <br><br><br>
+        </form>
+        
+    </fieldset>
+    <br>
+    <br>
+    
+    <script src="./employee.js" class="js"></script>
 </body>
+
+<main>
+    <section id="container" class="cont">
+        
+  <section id="Administration" class="adminstration">Administration <br></section>
+  <section id="Marketing" class="marketing">Marketing <br></section>
+  <section id="Development" class="development">Development <br></section>
+  <section id="Finance" class="finance">Finance <br></section>
+
+
+    </section>
+</main>
 <footer >
     
     <a href="https://www.facebook.com"><img src="./imgs/FB.png" alt="fb" class="fb"></a>
