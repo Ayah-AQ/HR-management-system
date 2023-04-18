@@ -109,3 +109,54 @@ body{
 display: flex;
 align-items: center;
 }
+body{
+  display: flex;
+  flex:content;
+  justify-content: center;
+  flex-direction: column;}
+main{
+  display: flex;
+  flex-direction: row;
+display: inline-block;
+}
+.cont{
+  display: flex;
+  
+}
+section.adminstration{
+  background-color: hsl(0, 55%, 40%);
+width: 25%;
+text-align-last: center;
+color: white;
+/* padding-right:; */
+} 
+
+section.marketing{
+  background-color: rgba(158, 46, 46, 0.856);
+width: 25%;
+text-align-last: center;
+color: white;
+
+}
+
+section.development{
+  background-color: rgba(158, 46, 46, 0.685);
+  width: 25%;
+text-align-last: center;
+color: white;
+
+}
+
+section.finance{
+  background-color: rgba(158, 46, 46, 0.452);
+  width: 25%;
+text-align-last: center;
+color: white;
+}
+
+img {
+  border-radius: 5%;
+  padding: 5px;
+  width: 200px;
+  height: 200px;
+}
