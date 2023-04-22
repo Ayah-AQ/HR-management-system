@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="rest" href="./reset.css">
+  <link rel="rest" href="./CSS/reset.css">
+  <link rel="stylesheet" href="./CSS/style.css">
     <head>
         <div class="h">
-            <!-- <a href="./index.html"><img src="./imgs/logo.png" alt="Todo-List" class="logo"></a> -->
            <img src="./imgs/logo.png"  class="logo">
             <div class="dropdown">
                 <button class="dropbtn"><img src="./imgs/menu.png" class="drop"></button>
@@ -13,14 +12,34 @@
                 <a href="./accounting.html">Accounting</a>
                 </div>
               </div>
-              <title class="l1">HR Companion</title>
+              <label class="l1">HR Companion</label>
 
-              <!-- <label ></label>  -->
+              <title >Accounting</title> 
     
          </div>
     </head>
 <body>
-  <script src="./accountig.js"></script>
+
+  <table id="employee-table" border="9">
+    <thead>
+      <tr>
+        <th>Department</th>
+        <th># of employees</th>
+        <th>Total Salary</th>
+        <th>Average Salary</th>
+      </tr>
+    </thead>
+        <tfoot>
+          <!-- <tbody> -->
+      <tr id="administrationRow"><td>Administration</td></tr>
+      <tr id="marketingRow"><td>Marketing</td></tr>
+      <tr id="developmentRow"><td>Development</td></tr>
+      <tr id="financeRow"><td>Finance</td></tr>
+      <tr id="totalRow"><td>Total</td></tr>
+    <!-- </tbody> -->
+  </tfoot>
+      </table>
+<script src="./Components/accounting.js"></script>
 </body>
 <footer >
     
